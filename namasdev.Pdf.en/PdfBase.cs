@@ -1,4 +1,5 @@
-﻿using System;
+#if NET48
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -492,3 +493,4 @@ namespace namasdev.Pdf
         #endregion Clases internas
     }
 }
+#endif

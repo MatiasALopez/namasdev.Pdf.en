@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net9.0</TargetFrameworks>
+    <AssemblyName>namasdev.Pdf.en</AssemblyName>
+    <RootNamespace>namasdev.Pdf.en</RootNamespace>
+    <Deterministic>true</Deterministic>
+    <PackageId>namasdev.Pdf.en</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Matias Alberto Lopez</Authors>
+    <Description>namasdev PDF library (English)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © 2025 Matias Alberto Lopez</Copyright>
+    <PackageTags>namasdev</PackageTags>
+    <PackageProjectUrl>https://github.com/namasdev/namasdev.en</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/namasdev/namasdev.en</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <!-- PDFsharp-MigraDoc-wpf targets .NET Framework only.
+       For net9.0 support, replace with a cross-platform PDF library. -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <PackageReference Include="PDFsharp-MigraDoc-wpf" Version="1.50.5147" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
