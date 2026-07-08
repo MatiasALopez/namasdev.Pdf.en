@@ -12,8 +12,8 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Copyright © 2025 Matias Alberto Lopez</Copyright>
     <PackageTags>namasdev</PackageTags>
-    <PackageProjectUrl>https://github.com/namasdev/namasdev.en</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/namasdev/namasdev.en</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MatiasALopez/namasdev.Pdf.en</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MatiasALopez/namasdev.Pdf.en</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <AssemblyVersion>0.1.0</AssemblyVersion>
